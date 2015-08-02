@@ -12,8 +12,8 @@ public class euler3 {
 				if(i%j == 0) break;
 			}
 			
-			if(j*j> i&& j>1){
-				if(t%i == 0 ){
+			if(j*j> i&& j>1){	// isPrime?
+				if(t%i == 0 ){	// isPrimeFactor?
 					result = i;
 				}
 			}
