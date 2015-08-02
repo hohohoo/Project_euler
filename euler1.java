@@ -7,7 +7,7 @@ public class euler1 {
 		
 		while(t < 1000){
 			
-			if( t%3==0 || t%5==0 ){
+			if( t%3==0 || t%5==0 ){		//multiplier of 3 or 5
 				sum+=t;
 			}
 			t++;
