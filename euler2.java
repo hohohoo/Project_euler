@@ -9,7 +9,8 @@ public class euler2 {
 		for( ; t <= 4000000; t += i+j){
 			
 			if(t%2==0) sum+= t;
-			t = i+j;
+			
+			t = i+j;		//fibonacci
 			i = j;
 			j = t;
 		}
